@@ -1,0 +1,13 @@
+com/example/ordersystem/repository/ProductRepository.class
+com/example/ordersystem/model/Order$OrderBuilder.class
+com/example/ordersystem/model/Product$ProductBuilder.class
+com/example/ordersystem/model/OrderItem.class
+com/example/ordersystem/model/OrderItem$OrderItemBuilder.class
+com/example/ordersystem/repository/OrderRepository.class
+com/example/ordersystem/service/OrderService.class
+com/example/ordersystem/config/AiConfig.class
+com/example/ordersystem/controller/AgentController.class
+com/example/ordersystem/model/Product.class
+com/example/ordersystem/OrderSystemApplication.class
+com/example/ordersystem/ai/OrderTools.class
+com/example/ordersystem/model/Order.class

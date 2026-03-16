@@ -2,7 +2,7 @@ package com.example.ordersystem.ai;
 
 import com.example.ordersystem.service.OrderService;
 import com.example.ordersystem.model.Product;
-import dev.langchain4j.agent.tool.Tool;
+import org.springframework.ai.tool.annotation.Tool;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 public class OrderTools {
     private final OrderService orderService;
 
-    @Tool("Get the list of all available products")
+    @Tool(description = "Get the list of all available products")
     public String getProductList() {
         List<Product> products = orderService.getAllProducts();
         if (products.isEmpty()) {
@@ -25,12 +25,12 @@ public class OrderTools {
                 .collect(Collectors.joining("\n"));
     }
 
-    @Tool("Create a new order for a customer")
+    @Tool(description = "Create a new order for a customer")
     public String placeOrder(String customerName, String productName, int quantity) {
         return orderService.createOrder(customerName, productName, quantity);
     }
 
-    @Tool("Check the status of an existing order by ID")
+    @Tool(description = "Check the status of an existing order by ID")
     public String checkOrderStatus(long orderId) {
         return orderService.getOrderStatus(orderId);
     }

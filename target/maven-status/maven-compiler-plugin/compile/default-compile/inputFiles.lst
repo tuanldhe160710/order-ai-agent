@@ -1,0 +1,10 @@
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/OrderSystemApplication.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/ai/OrderTools.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/config/AiConfig.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/controller/AgentController.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/model/Order.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/model/OrderItem.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/model/Product.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/repository/OrderRepository.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/repository/ProductRepository.java
+/Users/tuanld/project/order-ai-agent/src/main/java/com/example/ordersystem/service/OrderService.java
